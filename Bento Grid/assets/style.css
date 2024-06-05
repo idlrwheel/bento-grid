@@ -8,20 +8,39 @@
 }
 
 header nav{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    background: #000000;
+	float: left;
+    cursor: pointer;
 }
 
 header nav a{
-    text-decoration: none;
-    font-weight: 500;
-    color: azure;
-    width: 100%;
-    text-align: center;
-    padding-right: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid rgb(65, 67, 78);
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
+header nav a:hover {
+    background-color: rgb(110, 236, 236);
+  }
+
+header nav button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(1, 182, 253);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;  
+}
+
+header nav button:hover {
+    background-color: red;
+  }
 
 body{
     min-height: 100vh;
@@ -48,12 +67,29 @@ body{
     gap: 1em;
    
 }
+
+.col-left img {
+
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10%;
+}
 .col-right{
     flex: 2;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+
+.col-right img{
+    width: 650px;
+    height: 350px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 .row{
@@ -78,7 +114,7 @@ body{
     background-color: blue;
 }
 .row2{
-    background-color: aquamarine;
+    background-color: rgb(10, 10, 10);
 }
 .left{
     background-color: blueviolet;
@@ -87,8 +123,7 @@ body{
     background-color: #6232fc;
 }
 .top{
-    background: url(quadrinhos2.jpg) no-repeat center;
-    background-color: #3ee4ed;
+    background-color: #bebebe;
 }
 
 .bottom{
