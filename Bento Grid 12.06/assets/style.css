@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: #255C99;
+    background-color: #000000;
 }
 header{
     height: 40px;
-    background-color: #CCAD8F;
+    background: linear-gradient(#05f2fa, #255C99);
     display: flex;
     align-items:center;
 }
@@ -31,7 +31,7 @@ header a{
 header button {
     font-size: 10px;
     font-weight: 10px;
-    background-color: #255C99;
+    background-color: #000000;
     color: white;
     padding: 7px;
     border-radius: 15px;
@@ -44,17 +44,15 @@ header button:hover {
   }
 
 .container{
-    background-color:#255C99;
+    background-color:#000000;
     width: 700px;
     height: 700px; 
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 8%;
     padding: 1em;
     cursor: pointer;
     display: flex;
     gap: 1em;  
-    display: flex;
-    transition: .6s cubic-bezier(.91,-0.10,0,.99);
 }
 
 .col-left{
@@ -93,76 +91,69 @@ header button:hover {
 }
 
 .row1{
-    background: linear-gradient(#CCAD8F, #a4eff5)
+    background-color: #ffffff;
 }
+
 .row1 p{
-    color: #010000;
     font-size: 1rem;
-    line-height: 1,5;
     letter-spacing: 0.5px;
     overflow: hidden;
-    margin: 5%;
+    margin: 2%;
 }
 
 .row2{
-    background-color: #255C99;
+    background-color: #000000;
 }
 
-.row2 video{
-    border-color: #255C99;
+.row2 iframe{
+    border-color: #000000;
     margin: 0%;
     height: 300px;
-    width: 400px;
+    width: 500px;
     border-radius: 15%;
+    display: flex;
 }
 .left{
-    background-color: #255C99;
+    background-color: #000000;
 }
 
 .left img {
-    border-color: #255C99;
-    margin: 0%;
+    border-color: #000000;
     height: 210px;
-    width: 180px;
+    width: 250px;
     border-radius: 10%;
+    display: flex;
 }
 .right{
-    background-color: #255C99;
+    background-color:#000000;
 }
 
 .right img{
-    border-color: #255C99;
-    margin: 0%;
+    border-color: #000000;
     height: 210px;
-    width: 180px;
+    width: 250px;
     border-radius: 10%;
+    display: flex;
 }
 
 .top{
     height: 100px;
     width: 550px;
-    background-color: #255C99;
+    background-color: #000000;
 }
 
-.top video{
-    border-color: #255C99;
+.top iframe{
+    border-color:#000000;
     margin: 0%;
-    height: 320px;
+    height: 300px;
     width: 550px;
-    border-radius: 10%;
+    border-radius: 15%;
+    justify-content: center;
+    display: flex;
 }
 
 .bottom{
-    background: linear-gradient( #CCAD8F, #255C99)
-}
-
-.bottom video {
-    border-color: #255C99;
-    margin: 0%;
-    height: 320px;
-    width: 550px;
-    border-radius: 10%;
-
+    background: linear-gradient( #05f2fa, #070707);
 }
 
 .row:hover{
@@ -176,31 +167,68 @@ header button:hover {
 }
 
 .container3{
-    background-color:#255C99;
+    background-color:#000000;
     width: 700px;
     height: 700px; 
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 25%;
     padding: 1em;
     cursor: pointer;
     display: flex;
-    gap: 1em;  
-    display: flex;
-    transition: .6s cubic-bezier(.91,-0.10,0,.99);
+   
 }
 
 .row4{
-    background: linear-gradient( #CCAD8F, #255C99)
+    background-color: #000000;
+}
+.row4 iframe{
+    border-color:#000000;
+    margin: 0%;
+    border-radius: 8%;
+    justify-content: center;
+    display: flex;
 }
 .row5{
-    background: linear-gradient( #CCAD8F, #255C99)
+    background-color: #000000;
+}
+
+.row5 button{
+    font-size: 10px;
+    font-weight: 10px;
+    background-color: #255C99;
+    color: white;
+    width: 670px;
+    height: 150px; 
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;  
 }
 .top1{
-    background: linear-gradient( #CCAD8F, #255C99)
+    background-color: #000000;
 }
+.top1 iframe{
+    border-color:#000000;
+    margin: 0%;
+    border-radius: 8%;
+    justify-content: center;
+    display: flex;
+}
+
 .bottom1{
-    background: linear-gradient( #CCAD8F, #255C99)
+    background-color: #000000;
 }
+
+.bottom1 button{
+        font-size: 10px;
+        font-weight: 10px;
+        background-color: #255C99;
+        color: white;
+        width: 670px;
+        height: 150px; 
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;  
+    }
 
 h2{
     color: #ffff;
